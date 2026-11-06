@@ -9,11 +9,11 @@ HomeSecure is a proposed web and mobile application for monitoring and controlli
 3. [Architecture B — independent services](docs/03-architecture-b.md)
 4. [ChatGPT architecture review](docs/04-review.md)
 5. [Decision and consolidation instructions](docs/05-decision-and-consolidation.md)
-6. [Lab evidence and remaining steps](docs/06-lab-status.md)
+6. [Lab completion evidence](docs/06-lab-status.md)
 
 ## Current status
 
-This is an architecture-analysis submission in progress, not a deployed application.
+This repository contains the completed architecture-analysis documents and tool-use evidence. It is a design submission, not a deployed application.
 The student selected Architecture A. Codex executed the consolidation instructions and generated the final documents.
 
 ## Final documents
@@ -23,7 +23,7 @@ The student selected Architecture A. Codex executed the consolidation instructio
 - [Data model, API contracts, and detailed design](docs/final/design.md)
 - [Deployment, rollback, and recovery plan](docs/final/deployment.md)
 
-VS Code portable installation is verified, and Spec Kit's official core scripts have now run. The Codex extension installation remains blocked, so step 1 is still incomplete.
+VS Code and the OpenAI Codex extension are installed and verified. Spec Kit's official core scripts ran successfully; the adapted workflow and execution evidence are documented below.
 
 ## Spec Kit planning output
 

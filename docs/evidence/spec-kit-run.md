@@ -43,6 +43,17 @@ The official Microsoft Windows x64 archive was downloaded and unpacked as a port
 x64
 ```
 
-The attempted command code.cmd --install-extension openai.chatgpt --force failed with getaddrinfo ENOTFOUND marketplace.visualstudio.com. Listing installed extensions returned none. Thus Codex-in-VS-Code installation is still incomplete.
+The initial automatic installation failed with getaddrinfo ENOTFOUND marketplace.visualstudio.com. The user subsequently completed installation in the standard VS Code installation.
+
+Follow-up verification found the installed extension's package.json with these values:
+
+```text
+name: chatgpt
+displayName: Codex - OpenAI's coding agent
+publisher: openai
+version: 26.1021.22027
+```
+
+The standard VS Code CLI listed openai.chatgpt@26.1021.22027. It also emitted sandbox permission errors for directory changes and log creation, so the installed manifest was used as independent evidence. Step 1's extension installation is now verified. Authentication and interactive extension operation were not inspected.
 
 The architecture and consolidation work was done by Codex in ChatGPT Work, not by an installed VS Code extension.

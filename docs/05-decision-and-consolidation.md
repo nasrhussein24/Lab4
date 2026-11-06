@@ -24,7 +24,7 @@ The following prepared instructions were executed in this Codex session with SEL
 
 ## Completion gate
 
-Final consolidation followed the student's choice of A. A subsequent Spec Kit core-script planning pass confirmed the design. See evidence/spec-kit-run.md for its method and results. VS Code portable installation is verified; the Codex extension remains uninstalled.
+Final consolidation followed the student's choice of A. A subsequent Spec Kit core-script planning pass confirmed the design. See evidence/spec-kit-run.md for its method and results. VS Code and the OpenAI Codex extension installation are now verified; see the setup evidence for the installed version.
 
 ## Consolidation result
 
