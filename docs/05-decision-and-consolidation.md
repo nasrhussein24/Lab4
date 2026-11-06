@@ -24,7 +24,7 @@ The following prepared instructions were executed in this Codex session with SEL
 
 ## Completion gate
 
-Final consolidation must follow the student's choice. Actual Spec Kit workflow execution and VS Code installation evidence remain separate requirements; creating final documents alone does not complete them.
+Final consolidation followed the student's choice of A. A subsequent Spec Kit core-script planning pass confirmed the design. See evidence/spec-kit-run.md for its method and results. VS Code portable installation is verified; the Codex extension remains uninstalled.
 
 ## Consolidation result
 

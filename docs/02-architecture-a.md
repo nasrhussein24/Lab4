@@ -4,7 +4,7 @@
 
 Prepared by Codex in ChatGPT Work using the section structure of the official [Spec Kit plan template](https://github.com/github/spec-kit/blob/main/templates/plan-template.md) and referring to its [planning workflow](https://github.com/github/spec-kit/blob/main/templates/commands/plan.md).
 
-This is a template-guided draft. Specify CLI initialization, setup-plan, and the full Spec Kit workflow were not run. Step 3 of the assignment still needs an actual run and retained output.
+This document preserves the initial template-guided draft. A later [script-supported planning pass](../specs/001-homesecure/plan.md) executed the official create-new-feature and setup-plan scripts, populated the planning artifacts, and passed prerequisite discovery. The CLI/slash-command launcher was not used. See [execution evidence](evidence/spec-kit-run.md) for the actual chronology.
 
 ## Summary
 

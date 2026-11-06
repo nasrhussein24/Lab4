@@ -23,9 +23,16 @@ The student selected Architecture A. Codex executed the consolidation instructio
 - [Data model, API contracts, and detailed design](docs/final/design.md)
 - [Deployment, rollback, and recovery plan](docs/final/deployment.md)
 
-VS Code installation verification and an actual Spec Kit workflow run remain unfinished. The lab is not yet submission-ready.
+VS Code portable installation is verified, and Spec Kit's official core scripts have now run. The Codex extension installation remains blocked, so step 1 is still incomplete.
 
-Architecture A was drafted by Codex using the official Spec Kit planning template as a reference. The Specify CLI and its generation workflow have **not** been executed. Do not represent the baseline as completed Spec Kit execution evidence.
+## Spec Kit planning output
+
+- [Base architecture plan](specs/001-homesecure/plan.md)
+- [Specification](specs/001-homesecure/spec.md)
+- [Research](specs/001-homesecure/research.md)
+- [Execution and setup evidence](docs/evidence/spec-kit-run.md)
+
+Architecture A began as a template-guided draft. A subsequent local pass executed Spec Kit's official core scripts and populated the planning artifacts with Codex. This adapted workflow used no Specify CLI/slash-command launcher; its actual sequence and limitations are documented in the execution evidence.
 
 The existing Hello.java file is from an earlier exercise and is unrelated to the proposed HomeSecure implementation.
 

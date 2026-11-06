@@ -42,7 +42,7 @@ The scores favor A because the assumed team is small. They are not proof that A 
 
 Choose Architecture A for the first HomeSecure version. Keep the command/event contracts explicit so notifications or ingestion could become separate services later if evidence supports that change.
 
-Retain B as the documented alternative. The student's actual choice is still pending.
+Retain B as the documented alternative. The student subsequently selected A; the decision is recorded in docs/05-decision-and-consolidation.md.
 
 ## Required improvements whichever option is selected
 
@@ -53,3 +53,7 @@ Retain B as the documented alternative. The student's actual choice is still pen
 - Define backup/restore and application rollback procedures.
 - Convert performance goals into measurable tests.
 - Use simulated hardware for the class demonstration.
+
+## Review after the Spec Kit script run
+
+The subsequent plan in specs/001-homesecure/plan.md retains the same modular monolith boundaries, shared database, outbox/worker, and simulation scope. Its contracts and data model are consistent with the consolidated design. The recommendation remains A; no score changes were warranted. The initial comparison preceded this execution pass, as documented in the evidence.
