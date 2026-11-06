@@ -14,7 +14,16 @@ HomeSecure is a proposed web and mobile application for monitoring and controlli
 ## Current status
 
 This is an architecture-analysis submission in progress, not a deployed application.
-Both options and the comparison are ready for student review. Architecture selection and final consolidation are pending.
+The student selected Architecture A. Codex executed the consolidation instructions and generated the final documents.
+
+## Final documents
+
+- [Requirements and traceability](docs/final/requirements.md)
+- [Selected architecture](docs/final/architecture.md)
+- [Data model, API contracts, and detailed design](docs/final/design.md)
+- [Deployment, rollback, and recovery plan](docs/final/deployment.md)
+
+VS Code installation verification and an actual Spec Kit workflow run remain unfinished. The lab is not yet submission-ready.
 
 Architecture A was drafted by Codex using the official Spec Kit planning template as a reference. The Specify CLI and its generation workflow have **not** been executed. Do not represent the baseline as completed Spec Kit execution evidence.
 

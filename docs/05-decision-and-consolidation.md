@@ -2,15 +2,15 @@
 
 ## Decision record
 
-Status: awaiting student choice.
-Recommended choice: Architecture A, modular monolith.
+Status: Architecture A selected by the student; consolidation executed by Codex.
+Selected choice: Architecture A, modular monolith.
 Reason: simpler deployment and testing for the initial HomeSecure scope.
 
-The student has approved HomeSecure and Lab4, but has not yet selected an architecture. Do not attribute the recommendation to the student.
+The student chose A with the instruction “do a.” The rationale above is the review's recommendation; no additional personal rationale was supplied by the student.
 
 ## Prepared consolidation prompt
 
-After the student chooses, replace SELECTED_OPTION with A or B and run the following prompt in Codex, Claude Code, or Copilot:
+The following prepared instructions were executed in this Codex session with SELECTED_OPTION = A:
 
 > Read docs/01-requirements.md through docs/04-review.md. Consolidate HomeSecure around SELECTED_OPTION. Record the student's actual choice and rationale in this decision record. Preserve both original architectures and the review as evidence.
 >
@@ -25,3 +25,11 @@ After the student chooses, replace SELECTED_OPTION with A or B and run the follo
 ## Completion gate
 
 Final consolidation must follow the student's choice. Actual Spec Kit workflow execution and VS Code installation evidence remain separate requirements; creating final documents alone does not complete them.
+
+## Consolidation result
+
+Created [requirements](final/requirements.md), [architecture](final/architecture.md), [design](final/design.md), and [deployment](final/deployment.md). Original options and review are retained.
+
+Review findings addressed: explicit authorization and revocation checks; durable acceptance/outbox recovery; command lifecycle and late acknowledgments; idempotency and telemetry ordering; deployment/restore/rollback; measurable requirement traceability.
+
+Document consistency and relative links were checked. Application behavior was not tested because this task produced design documents.
